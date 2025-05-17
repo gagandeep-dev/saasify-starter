@@ -4,7 +4,9 @@
   "description": "🚀 A professional SaaS boilerplate built with the MERN stack — including user auth, MongoDB integration, API routing, and scalable folder structure. Perfect for launching MVPs faster.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node index.js",
+  "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/gagandeep-dev/saasify-starter/issues"
   },
-  "homepage": "https://github.com/gagandeep-dev/saasify-starter#readme"
+  "homepage": "https://github.com/gagandeep-dev/saasify-starter#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
